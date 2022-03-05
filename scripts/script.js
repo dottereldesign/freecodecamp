@@ -136,3 +136,29 @@ var myStr = 'I am a "double quoted" string inside "double quotes"';
 console.log(myStr);
 
 // Escape Sequences in Strings
+/*
+     CODE    OUTPUT
+     \'      single quote
+     \"      double quote
+     \\      backslash
+     \n      newline
+     \r      carriage return
+     \t      tab
+     \b      backspace
+     \f      form feed
+*/
+
+// Concatenating Strings with Plus Operator
+var ourStr = "I come first." + "I come second.";
+var myStr = "This is the start. " + "This is the end.";
+console.log(myStr);
+
+// Concatenating Strings with Plus Equals Operator
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+console.log(ourStr);
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+console.log(myStr);
+
+// Constructing Strings with Variables
