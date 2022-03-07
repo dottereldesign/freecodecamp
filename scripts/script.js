@@ -12,6 +12,7 @@ const pi = 3.14;
 var a;
 var b = 2;
 console.log(a);
+
 a = 7;
 b = a;
 console.log(a);
@@ -157,6 +158,7 @@ console.log(myStr);
 var ourStr = "I come first. ";
 ourStr += "I come second.";
 console.log(ourStr);
+
 var myStr = "This is the first sentence. ";
 myStr += "This is the second sentence.";
 console.log(myStr);
@@ -167,3 +169,39 @@ var ourStr = "Hello, our name is " + ourName + ", how are you?";
 var myName = "Jamie";
 var myStr = "My name is " + myName + " and I am well!";
 console.log(myStr);
+
+// Appending Variables to Strings
+var anAdjective = "awesome!";
+var ourStr = "freeCodecamp is ";
+ourStr += anAdjective;
+console.log(ourStr);
+
+var someAdjective = "worthwhile";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+console.log(myStr);
+
+// Find the Length of a String
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+console.log(firstNameLength);
+
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+lastNameLength = lastName.length;
+console.log(lastNameLength);
+
+// Bracket Notation to Find First Character in String
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+firstLetterOfLastName = lastName[0];
+console.log(firstLetterOfLastName);
