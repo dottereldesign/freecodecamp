@@ -205,3 +205,17 @@ var lastName = "Lovelace";
 
 firstLetterOfLastName = lastName[0];
 console.log(firstLetterOfLastName);
+
+// String Immutability
+var myStr = "Jello World";
+myStr = "Hello World";
+console.log(myStr);
+
+// Bracket Notation to Find Nth Character in String
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName);
+
+var lastName = "Lovelace";
+var thirdLetterOfLastName = lastName[2];
+console.log(thirdLetterOfLastName);
